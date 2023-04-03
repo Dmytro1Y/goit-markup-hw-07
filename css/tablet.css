@@ -1,0 +1,59 @@
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+
+  .advantages-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 72px;
+    column-gap: 24px;
+  }
+
+  .adv-item {
+    width: calc((100% - 24px) / 2);
+  }
+
+  /*-------Team-------*/
+  .team-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  /*-------Customers-------*/
+  .customers-list {
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 24px;
+  }
+
+  /*-------Footer-------*/
+  .container-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .container-footer-first {
+    margin-right: 24px;
+    align-items: flex-start;
+  }
+
+  .container-social-footer {
+    align-items: start;
+  }
+
+  .subscribe-container {
+    align-items: flex-start;
+  }
+
+  .form-subscribe-container {
+    flex-direction: row;
+    align-items: baseline;
+  }
+
+  .input-subscribe {
+    min-width: 264px;
+    margin-right: 24px;
+  }
+}

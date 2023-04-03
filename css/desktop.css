@@ -1,0 +1,67 @@
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1158px;
+  }
+
+  /*-------Team-------*/
+
+  .head {
+    font-weight: 500;
+    font-size: 20px;
+    text-align: start;
+  }
+
+  .advantages-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .adv-text {
+    font-weight: 400;
+  }
+  .adv-icon {
+    display: flex;
+  }
+  .team-list {
+    flex-direction: row;
+    gap: 24px;
+  }
+
+  .team,
+  .customers {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .customers-list {
+    gap: 24px;
+  }
+
+  .projects {
+    display: block;
+  }
+
+  /*-------Footer-------*/
+  .container-footer {
+    display: flex;
+  }
+
+  .container-footer-first {
+    margin-right: 120px;
+  }
+
+  .form-subscribe-container {
+    display: flex;
+  }
+
+  .subscribe-container {
+    margin-left: auto;
+  }
+
+  .footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
