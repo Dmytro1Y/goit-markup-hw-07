@@ -3,6 +3,25 @@
     max-width: 768px;
   }
 
+  .navigation-list {
+    display: flex;
+    gap: 40px;
+  }
+
+  .address {
+    display: flex;
+    font-style: normal;
+    padding: 8px 0;
+  }
+
+  .address-list {
+    flex-direction: column;
+    row-gap: 8px;
+  }
+
+  /*-------Header-BG-------*/
+
+  /*-------Advantages-------*/
   .advantages-list {
     flex-direction: row;
     flex-wrap: wrap;
@@ -11,9 +30,11 @@
   }
 
   .adv-item {
-    width: calc((100% - 24px) / 2);
+    flex-basis: calc((100% - 24px) / 2);
   }
-
+  .head {
+    text-align: left;
+  }
   /*-------Team-------*/
   .team-list {
     flex-direction: row;

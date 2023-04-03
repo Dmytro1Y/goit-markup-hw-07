@@ -90,8 +90,8 @@ body {
 }
 
 .advantages {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 .apps-list {
@@ -171,12 +171,13 @@ body {
 }
 
 .navigation-list {
-  display: flex;
+  display: none;
   gap: 40px;
 }
 
 /*-----------------Address-----------------*/
 .address {
+  display: none;
   font-style: normal;
   padding: 24px 0;
 }
@@ -198,21 +199,20 @@ body {
 }
 .address-list {
   display: flex;
-  gap: 40px;
 }
 
 /*-----------------Headers-----------------*/
 
 .header {
-  font-size: 56px;
+  font-size: 36px;
   color: var(--white-color);
   text-align: center;
   margin-left: auto;
   margin-right: auto;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  margin-bottom: 48px;
-  width: 496px;
+  margin-bottom: 72px;
+  width: 320px;
 }
 
 .header-second {
@@ -327,7 +327,7 @@ body {
     url(../images/bg-hero.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  max-width: 1440px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -614,6 +614,7 @@ body {
   height: 100%;
   background: rgba(46, 47, 66, 0.4);
   position: fixed;
+  overflow-y: scroll;
   top: 0;
   left: 0;
   transition-duration: 250ms;
@@ -628,6 +629,7 @@ body {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   position: absolute;
+
   padding: 24px;
   top: 50%;
   left: 50%;
@@ -859,4 +861,12 @@ body {
 
 .sub-icon {
   margin-left: 16px;
+}
+
+.mobile-menu {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  border-color: transparent;
 }
