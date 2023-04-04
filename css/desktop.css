@@ -22,6 +22,10 @@
     flex-direction: row;
     gap: 40px;
   }
+
+  .menu-container {
+    padding: 16px 0;
+  }
   /*-------Header-BG-------*/
 
   .header {
